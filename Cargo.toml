@@ -1,0 +1,19 @@
+[package]
+name = "katgpt-latent-host"
+version = "1.8.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Host golden model for the KatGPT ESP32-S3 latent-space runtime"
+
+[lib]
+path = "host/src/lib.rs"
+
+[[bin]]
+name = "robustness_v108"
+path = "host/src/bin/robustness_v108.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+

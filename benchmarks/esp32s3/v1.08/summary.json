@@ -1,0 +1,28 @@
+{
+  "version": "1.08",
+  "classification": "PROTOTYPE",
+  "run_date": "2026-09-12",
+  "host": {
+    "rustc": "1.95.0",
+    "unit_tests_passed": 6,
+    "unit_tests_failed": 0,
+    "cyclic_cases": 200,
+    "memoryless_cases": 50,
+    "sudden_drift_cases": 10,
+    "wrong_prior_burst_windows": 100,
+    "mean_sequential_gain_pp": 5.6752,
+    "worst_memoryless_regression_pp": 0.0000,
+    "worst_sudden_drift_regression_pp": 3.6000,
+    "worst_wrong_prior_regression_pp": 15.0000,
+    "corrected": 243387,
+    "harmed": 16378,
+    "runtime_bytes": 613,
+    "promotion_gate": "FAIL"
+  },
+  "esp32s3": {
+    "idf_build": "NOT_VERIFIED",
+    "flash": "NOT_VERIFIED",
+    "serial": "NOT_CAPTURED",
+    "board_pass": false
+  }
+}
